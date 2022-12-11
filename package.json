@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build:pkg": "pnpm run prepare -r",
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "test": "turbo run test --parallel",
+    "lint": "turbo run lint",
+    "lint:fix": "turbo run lint:fix",
+    "server:build": "turbo run build --scope=*server*",
+    "server:start": "yarn server:build && yarn workspace @my-monorepo/server run start",
+    "server:dev": "yarn workspace @my-monorepo/server run dev",
+    "is-even": "yarn workspace @my-monorepo/is-even run start",
+    "is-odd": "yarn workspace @my-monorepo/is-odd run start"
+  },
+  "author": "DamnPatrick",
+  "packageManager": "pnpm@7.12.2",
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=16"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "turbo": "^1.5.3"
+  }
+}
