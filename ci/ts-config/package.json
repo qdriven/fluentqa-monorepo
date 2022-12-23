@@ -1,0 +1,8 @@
+{
+  "name": "@fluentqa/tsconfig",
+  "version": "1.0.0",
+  "description": "shared-ts-configuration",
+  "main": "tsconfig.json",
+  "author": "DamnPatrick",
+  "license": "MIT"
+}

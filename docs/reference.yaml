@@ -1,3 +1,12 @@
 repos:
   - https://github.com/ycjcl868/monorepo.git
   - https://github.com/mmazzarolo/tangerine-monorepo.git
+
+products:
+  - https://nextlessjs.com/
+  - https://flaviocopes.com/
+  - https://codesandbox.io/
+  - https://vitest.dev/guide/#overview
+templates:
+  - https://github.com/ins-x/template.git
+  - https://github.com/sachinraja/ts-lib-starter.git

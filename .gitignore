@@ -1,6 +1,16 @@
 node_modules/
 .idea/
 .turbo
-build/**
+build/*
 dist/**
 .next/**
+# FILES
+pnpm-lock.yaml
+.pnpm-debug.log
+
+# DIRECTORIES
+.rollup.cache
+tsconfig.tsbuildinfo
+node_modules
+
+dist

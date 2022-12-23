@@ -1,0 +1,11 @@
+{
+  "extends": "@fluentqa/tsconfig",
+  "exclude": ["node_modules"],
+  "include": ["index.ts"],
+  "compilerOptions": {
+    "outDir": ".",
+    "incremental": false,
+    "skipLibCheck": true,
+    "target": "ES2016"
+  }
+}
