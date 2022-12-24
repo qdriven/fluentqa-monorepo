@@ -41,11 +41,9 @@
     "splitting": true,
     "clean": true
   },
-  "author": "",
+  "author": "DamnPatrick",
   "license": "ISC",
   "dependencies": {
-    "@types/debug": "^4.1.7",
-    "@types/fs-extra": "^9.0.13",
     "chalk": "^5.2.0",
     "debug": "^4.3.4",
     "dprint": "^0.34.1",
@@ -56,9 +54,20 @@
     "npm-run-all": "^4.1.5",
     "ora": "^6.1.2",
     "p-throttle": "^5.0.0",
+    "@notionhq/client": "^2.2.2",
+    "@octokit/core": "^4.1.0",
+    "classnames": "^2.3.2",
+    "graphql": "^16.6.0",
+    "graphql-request": "^5.0.0",
+    "graphql-tag": "^2.12.6",
+    "write": "^2.0.0"
+  },
+  "devDependencies": {
     "ts-pattern": "^4.0.6",
     "tsup": "^6.5.0",
     "vite": "^4.0.3",
-    "vitest": "^0.26.2"
+    "vitest": "^0.26.2",
+    "@types/debug": "^4.1.7",
+    "@types/fs-extra": "^9.0.13"
   }
 }
